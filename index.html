@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="A modern responsive ecommerce storefront template built with HTML, CSS and JavaScript." />
+  <title>VANTA — Modern Storefront</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="announcement">FREE SHIPPING ON ORDERS OVER $80 · 30 DAY RETURNS</div>
+
+  <header class="header">
+    <div class="container nav">
+      <a href="#home" class="logo">VANTA<span>®</span></a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#new">New</a>
+        <a href="#shop">Shop</a>
+        <a href="#story">Story</a>
+        <a href="#journal">Journal</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="icon-btn" id="themeToggle" aria-label="Toggle theme">☾</button>
+        <button class="cart-button" id="cartButton">Bag <span id="cartCount">0</span></button>
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">THE NEW STANDARD IN EVERYDAY GOODS</p>
+          <h1>Built for now.<br><span>Designed to last.</span></h1>
+          <p class="hero-text">A refined collection of functional essentials for modern living. Minimal form, practical use, lasting quality.</p>
+
+          <div class="hero-buttons">
+            <a href="#shop" class="btn btn-dark">Shop collection <span>↗</span></a>
+            <a href="#story" class="btn btn-ghost">Discover our story</a>
+          </div>
+
+          <div class="metrics">
+            <div><strong>18K+</strong><span>Customers worldwide</span></div>
+            <div><strong>4.9</strong><span>Average rating</span></div>
+            <div><strong>32</strong><span>Countries shipped</span></div>
+          </div>
+        </div>
+
+        <div class="hero-card reveal">
+          <div class="hero-label">NEW RELEASE</div>
+          <div class="hero-product">
+            <div class="bottle-cap"></div>
+            <div class="bottle-neck"></div>
+            <div class="bottle-body">
+              <strong>VANTA</strong>
+              <small>OBJECT 01</small>
+            </div>
+          </div>
+          <div class="floating-note note-a"><span>01</span><b>Essential Form</b></div>
+          <div class="floating-note note-b"><span>02</span><b>Built for Daily Use</b></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="brand-strip">
+      <div class="container brand-strip-inner">
+        <span>FEATURED IN</span>
+        <b>MONOCLE</b><b>FORM</b><b>OBJECT</b><b>DWELL</b><b>FRAME</b>
+      </div>
+    </section>
+
+    <section class="section" id="new">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div><p class="eyebrow">CURATED CATEGORIES</p><h2>Made for everyday.</h2></div>
+          <p>Thoughtful pieces for home, work and life — designed with restraint and built with purpose.</p>
+        </div>
+
+        <div class="category-grid">
+          <a href="#shop" class="category-card category-large reveal">
+            <div class="category-visual visual-home">
+              <div class="lamp"><div class="lamp-shade"></div><div class="lamp-stem"></div><div class="lamp-base"></div></div>
+            </div>
+            <div class="category-info"><div><small>01</small><h3>Home</h3></div><span>↗</span></div>
+          </a>
+
+          <a href="#shop" class="category-card reveal">
+            <div class="category-visual visual-carry"><div class="tote"><span>VANTA</span></div></div>
+            <div class="category-info"><div><small>02</small><h3>Carry</h3></div><span>↗</span></div>
+          </a>
+
+          <a href="#shop" class="category-card reveal">
+            <div class="category-visual visual-desk"><div class="book"><span>NOTES</span></div><div class="pen"></div></div>
+            <div class="category-info"><div><small>03</small><h3>Desk</h3></div><span>↗</span></div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section products-section" id="shop">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div><p class="eyebrow">MOST WANTED</p><h2>Best sellers.</h2></div>
+          <a href="#shop" class="plain-link">View all products →</a>
+        </div>
+
+        <div class="product-grid">
+          <article class="product-card reveal">
+            <div class="product-image product-one"><span class="badge">BESTSELLER</span><button class="wish">♡</button><div class="mug">V</div></div>
+            <div class="product-meta"><div><small>Home</small><h3>Form Mug</h3></div><strong>$28</strong></div>
+            <button class="add-to-cart" data-name="Form Mug" data-price="28">Add to bag</button>
+          </article>
+
+          <article class="product-card reveal">
+            <div class="product-image product-two"><span class="badge">NEW</span><button class="wish">♡</button><div class="tote product-tote"><span>VANTA</span></div></div>
+            <div class="product-meta"><div><small>Carry</small><h3>Studio Tote</h3></div><strong>$42</strong></div>
+            <button class="add-to-cart" data-name="Studio Tote" data-price="42">Add to bag</button>
+          </article>
+
+          <article class="product-card reveal">
+            <div class="product-image product-three"><button class="wish">♡</button><div class="clock"><div class="clock-face"></div></div></div>
+            <div class="product-meta"><div><small>Desk</small><h3>Mono Clock</h3></div><strong>$36</strong></div>
+            <button class="add-to-cart" data-name="Mono Clock" data-price="36">Add to bag</button>
+          </article>
+
+          <article class="product-card reveal">
+            <div class="product-image product-four"><span class="badge">LIMITED</span><button class="wish">♡</button><div class="mini-bottle">01</div></div>
+            <div class="product-meta"><div><small>Everyday</small><h3>Daily Bottle</h3></div><strong>$34</strong></div>
+            <button class="add-to-cart" data-name="Daily Bottle" data-price="34">Add to bag</button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section editorial-section" id="story">
+      <div class="container editorial reveal">
+        <div class="editorial-art"><div class="circle-line"></div><div class="vase"></div></div>
+        <div class="editorial-copy">
+          <p class="eyebrow">AUTUMN / 26</p>
+          <h2>Warmer tones.<br>Slower moments.</h2>
+          <p>Our seasonal edit is inspired by soft light, quiet interiors and the beauty of useful objects that become part of your routine.</p>
+          <a href="#shop" class="btn btn-accent">Explore the edit <span>↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section values-section" id="journal">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div><p class="eyebrow">OUR APPROACH</p><h2>Less, but better.</h2></div>
+          <p>We focus on fewer, better pieces — useful products with strong materials, timeless form and quiet character.</p>
+        </div>
+
+        <div class="values-grid">
+          <article class="value reveal"><span>01</span><div class="value-icon">✦</div><h3>Thoughtful design</h3><p>Every line, material and proportion is considered with function first.</p></article>
+          <article class="value reveal"><span>02</span><div class="value-icon">◌</div><h3>Responsible choices</h3><p>Durable materials and reduced packaging help every product last longer.</p></article>
+          <article class="value reveal"><span>03</span><div class="value-icon">↺</div><h3>Built for real life</h3><p>Objects designed to work beautifully in everyday routines.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="newsletter">
+      <div class="container newsletter-inner reveal">
+        <div><p class="eyebrow">STAY IN THE LOOP</p><h2>Good things, occasionally.</h2><p>New releases, studio notes and selected offers.</p></div>
+        <form id="newsletterForm"><input type="email" id="email" placeholder="Your email address" required><button type="submit">Join newsletter →</button></form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div><a href="#home" class="logo footer-logo">VANTA<span>®</span></a><p>Modern objects for everyday living.</p></div>
+      <div class="footer-links">
+        <div><b>Shop</b><a href="#new">New</a><a href="#shop">Best sellers</a><a href="#shop">Collections</a></div>
+        <div><b>Company</b><a href="#story">Our story</a><a href="#journal">Journal</a><a href="#">Contact</a></div>
+        <div><b>Social</b><a href="#">Instagram</a><a href="#">Pinterest</a><a href="#">X / Twitter</a></div>
+      </div>
+    </div>
+    <div class="container footer-bottom"><span>© 2026 VANTA Studio</span><span>Frontend template · HTML / CSS / JavaScript</span></div>
+  </footer>
+
+  <aside class="cart-drawer" id="cartDrawer">
+    <div class="cart-head"><div><p class="eyebrow">YOUR BAG</p><h2>Cart</h2></div><button id="closeCart">×</button></div>
+    <div class="cart-items" id="cartItems"><div class="empty-cart">Your bag is empty.</div></div>
+    <div class="cart-bottom"><div><span>Subtotal</span><strong id="cartTotal">$0</strong></div><button>Checkout</button></div>
+  </aside>
+  <div class="overlay" id="overlay"></div>
+  <div class="toast" id="toast">Added to bag</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
